@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic mb-3">
+      <h1>Your Name</h1>
+      <p class="lead">Web Developer | Designer | Programmer</p>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="mb-3">
+        <label for="html" class="form-label">HTML</label>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90"
+            aria-valuemin="0" aria-valuemax="100">90%</div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="css" class="form-label">CSS</label>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+            aria-valuemax="100">85%</div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="js" class="form-label">JavaScript</label>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="node" class="form-label">Node.js</label>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100">75%</div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="react" class="form-label">React</label>
+        <div class="progress">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="mongodb" class="form-label">MongoDB</label>
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100">70%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Description of Project 1.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Description of Project 2.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Description of Project 3.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
